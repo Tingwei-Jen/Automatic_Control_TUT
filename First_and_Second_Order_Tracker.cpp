@@ -35,7 +35,6 @@ int main(){
 		//FirstOrderTracker(ref, feedback);
 		SecondOrderTracker(ref, feedback, xd);
 		std::cout<<"ref: "<<ref<<"  feedback: "<<feedback<<std::endl;
-		std::cout<<"xd: "<<xd<<std::endl;
 		i++;
 	}
 	
